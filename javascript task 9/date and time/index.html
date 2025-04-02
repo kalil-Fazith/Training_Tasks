@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <title>Date time</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <form onsubmit="return show()">
+    <div class="text-center border border-secondary">
+        <h2>Current Date & Time of Your System</h2>
+        <button type="submit" class="btn btn-success btn-lg m-2">show</button>
+        <button type="reset" class="btn btn-danger btn-lg m-2">clear</button>
+        <div class="container border border-secondary bg-primary">
+            <div class="row">
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Year
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Month
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Date
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Hour
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Minute
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    seconds
+                </div>
+                <div class="col-sm border border-secondary m-1 text-danger bg-body">
+                    Millisec
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <input type="textbox" id="year" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="month" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="date" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="hour" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="minute" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="seconds" class="w-75 text-center m-1" readonly>
+                </div>
+                <div class="col-sm">
+                    <input type="textbox" id="milliseconds" class="w-75 text-center m-1" readonly>
+                </div>
+            </div>
+        </div>
+        <h2>GMT + 0530 (Indian Standard Time)</h2>
+        <div class="w-75 mx-auto">
+            <div class="row border border-secondary m-2 bg-primary">
+                <div class="col-sm text-primary bg-light m-2">Local Date & Time</div>
+                <div class="col-sm"><input type="textbox" id="local" class="m-1 w-75 text-center" readonly></div>
+            </div>
+            <div class="row border border-secondary m-2 bg-primary">
+                <div class="col-sm text-primary bg-light m-2">UTC</div>
+                <div class="col-sm"><input type="textbox" id="utc" class="m-1 w-75 text-center" readonly></div>
+            </div>
+            <div class="row border border-secondary m-2 bg-primary">
+                <div class="col-sm text-primary bg-light m-2">UTC Milliseconds</div>
+                <div class="col-sm"><input type="textbox" id="utcMilli" class= "m-1 w-75 text-center"readonly></div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
