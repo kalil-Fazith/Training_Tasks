@@ -1,0 +1,246 @@
+body,html{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-left: 80px;
+}
+.full-container{
+    margin-top: 5rem;
+    width: 67rem;
+    height: 89%;
+    background-color: white;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container-1 {
+    position: relative;
+    width: 100%; 
+}
+
+.container-1 img {
+    margin-right: 50px;
+    width: 22rem;
+    height: 100%;
+    
+}
+.container2{
+    width: 50rem;
+    justify-content: left;
+    overflow: hidden;
+}
+
+input{
+    display: flex;
+    justify-content: space-between;
+    width: 12.5rem;
+    width: 90%;
+    height:100%;
+    border-radius: 0.313rem;
+    border: 0.001rem solid lightgrey;
+    
+}
+select{
+    display: flex;
+    height: 90%;
+    margin-top: 0.313rem;
+    width: 90%;
+    border-radius: 0.313rem;
+    border-color: lightgray;
+}
+.row{
+    margin-top: 1.975rem;
+    margin-left: 1.25rem;
+    display: flex;
+    width: 100%;
+    gap: 1.25rem;
+    padding-top: 15px;
+}
+.column{
+   flex: 1;
+   display: block;
+   margin-right: 1.25rem;
+}
+.form-header{
+    margin-top: 4rem;
+    display: flexbox;
+    width: 40rem;
+    height: 100%;
+    padding-right: 10rem;
+}
+label{
+    font-weight: 800;
+    font-size: 0.75rem;
+    
+}
+#payment{
+    padding-bottom: 0.625rem;
+}
+a{
+    margin-left: 0.7rem;
+    font-size: 0.65rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+}
+input[type=submit]{
+    height: 2.3rem;
+    width: 5.6rem;
+    margin-left: 24.5rem;
+    background-color: #329e5e;
+    border-radius: 0.35rem;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+input[type=reset]{
+    height: 2.3rem;
+    width: 5.6rem;
+    border-radius: 0.313rem;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #b6a395;
+    font-size: 11px;
+}
+input[type=range]{
+    margin-top: 20px;
+    width: 37rem; 
+    margin-right: 2.5rem;
+    accent-color: green;
+}
+
+input[type=radio]{
+    display: inline;
+    width: 0.938rem;
+    margin-top: 0.938rem;
+    accent-color: green;
+   
+    
+}
+.radio_tag,p{
+    display: flex;
+    font-size: 0.875rem;
+
+}
+#F_name{
+    width: 90%;
+    height: 90%;
+}
+#payment_detail{
+    padding-left: 4.2rem;
+}
+#lunch_detail{
+    padding-left: 3.6rem;
+}
+#lname{
+    height: 60%;
+}
+.donate{
+    margin-top: 2rem;
+    
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.register, .seats {
+    position: absolute;
+    color: white; 
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.register {
+    top: 50%;
+    left: 20%;
+    margin-left: 6.4rem;
+    font-size: 1.3vw; 
+    font-weight: 800;
+    
+}
+.seats {
+    top: 60%;
+    left: 30%;
+    margin-left: 3.9rem;
+    font-size: 1vw; 
+    padding-bottom: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#img{
+    width: 3.125rem;
+    height: 1.25rem;
+}
+
+.range-img{
+    position: absolute;
+    top: 75.8%;
+    left: 30%;
+    bottom: 30%;
+    text-align: center;
+    transform: translate(98px, 50%);
+}
+
+@media only screen and (max-width: 900px){
+    .full-container{
+        margin: 0;
+        padding: 0;
+        position: 0;
+        height: 40rem;
+    }
+    .container-1 img{
+        width: 40%;
+        height: 100%;
+        padding-left: 120px;
+    }
+    .container2{
+        width: 20%;
+    }
+    .form-header{
+        width: 75%;
+    }
+    input[type=range]{
+        width: 92%;
+        justify-content: center;
+        border:1px solid lightgray
+    }
+    .range-img{
+        right: 100%;
+    }
+    .column{
+        width: 20rem;
+        height: 2rem;
+        padding-right: 1.25rem;
+    }
+
+    input[type=submit]{
+        margin-left: 19rem;
+    }
+    .radio_tag{
+        padding-right: 1.875rem;   
+    }
+    #lname{
+        height: 100%;
+    }
+    p{
+        font-size: 0.813rem;
+    }
+    .container1{
+        width: 50%;
+    }
+    .register{
+        top: 40%;
+        right: 100%;
+        color: white;
+    }
+    #payment_detail{
+        padding-left: 1rem;
+    }
+    #lunch_detail{
+        padding-left: 0.5rem;
+    }
+}
+span{
+    color: red;
+}

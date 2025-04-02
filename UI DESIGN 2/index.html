@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UI Design 2</title>
+        <link rel="stylesheet" href="styles/Styles.css"
+    </head>
+    <body>
+        <div class="full-container">
+            <div class="container-1">
+                <img src="assessts/unnamed.jpg">
+                <div class="register">REGISTER NOW</div>
+                <div class="seats">while seats are available !</div>
+            </div>
+            <div class="container-2">
+                <form class="form-header">
+                    <div class="row">
+                        <div class="column">
+                            <label for="first_name">
+                                FIRST NAME <span>*</span>
+                            </label>
+                            <input type="text" id="F_name" required>
+                        </div>
+                        <div class="column" id="meal">
+                            <label for="Meal">MEAL PREFERENCE</label>
+                            <a href="#" id="lunch_detail">Lunch detail</a>
+                            <select>
+                                <option>Vegetarian</option>
+                                <option>Non-Vegetarian</option>
+                            </select>
+                        </div>          
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                                    <label for="lname">LAST NAME <span>*</span></label>
+                                    <input type="text" id="lname" required>
+                        </div>
+                        <div class="column">
+                            <label for="payment" id="payment">PAYMENT MODE</label>
+                            <a href="#" id="payment_detail">Payment Detail</a></u><br>
+                            <div class="radio_tag">
+                                <input type="radio"  name="payment" >
+                                <p >Cash</p>
+                                <input type="radio" name="payment">
+                                <p >Cheque</p>
+                                <input type="radio" name="payment">
+                                <p >Demand Draf</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="company">COMPANY <span>*</span></label>
+                            <input type="text" required>
+                        </div>
+                        <div class="column">
+                            <label for="DD / CHEQUE NO.">DD / CHEQUE NO.</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="email">EMAIL <span>*</span> </label>
+                            <input type="text" required>
+                        </div>
+                        <div class="column">
+                            <label for="drawn bank">DRAWN ON (BANK NAME)</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <Label for="pnumber">PHONE NUMBER <span>*</span></Label>
+                            <input type="text" required>
+                        </div>
+                        <div class="column">
+                            <label for="payable">PAYABLE AT
+                            </label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="donate">
+                        <label for="donate" id="donate">
+                            <br>DONATE US
+                        </label>
+                        <div class="range-img">
+                            <img src="assessts/unnamed.png" id="img">
+                        </div>
+                        <input type="range" min="0" max="1000" >
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="SUBMIT" id="submit">
+                        <input type="reset" value="RESET" id="reset"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
