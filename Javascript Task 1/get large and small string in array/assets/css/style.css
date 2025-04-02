@@ -1,0 +1,54 @@
+.fullContainer{
+    margin-top: 15%;
+    border: 2px solid lightgrey;
+    width: 40%;
+    margin-left: 25%;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.container{
+    text-align: center;
+    padding: 1rem;
+}
+label{
+    text-align: center;
+    color: green;
+}
+input{
+    margin-left: 1rem;
+}
+.SubmitButton{
+    text-align: center; 
+}
+.errorBlock{
+    text-align: center;
+}
+button{
+    background-color:  #4CAF50;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    border: 0;
+    margin-bottom: 0.5rem;
+}
+button:hover{
+    background-color: #45a049;
+}
+.resultBlock{
+    text-align: center;
+    color: green;
+    margin-bottom: 5px;
+}
+#errors{
+    color: red;
+    margin-bottom: 5px;
+}
+input{
+    border: 2px solid green;
+    border-radius: 7px;
+    width: 15rem;
+    height: 3rem;
+}
