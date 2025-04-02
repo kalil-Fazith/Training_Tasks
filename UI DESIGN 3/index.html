@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <title>UI Design 3</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="full-container">
+        <div class="container-1">
+            <img src="assessts/snapedit_1740116464241.jpeg" alt="estate-logo">
+        </div>
+        <div class="container-2">
+            <form>
+                <div class="row" id="vertical">
+                    <div class="column">
+                        <label for="firstname">First name?*</label>
+                        <input type="text" id="fname" required>
+                    </div>
+                    <hr id="hr">
+                    <div class="column">
+                        <label for="lastname">Last name*</label>
+                        <input type="text" id="lname" required>
+                    </div>
+                </div><hr id="vertical">
+
+                <div class="column">
+                    <label for="email">Email address*</label>
+                    <input type="text" id="email" required>
+                </div><br>
+                <hr>
+                <div class="column">
+                    <label for="phone">Phone contact*</label>
+                    <input type="text" id="phone" required>
+                </div><br>
+                <hr><br>
+                <label id="Address">Current address*</label>
+                <div class="row">
+                    <div class="column">
+                        <label for="street"><p>Street*</p></label>
+                        <input type="text" id="street" required>
+                    </div>
+                    <div class="column">
+                        <label for="city"><p>City/Suburb</p></label>
+                        <input type="text" id="city">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="state"><p>State*</p></label>
+                        <input type="text" id="state" required>
+                    </div>
+                    <div class="column">
+                        <label for="zip"><p>Zip/Post Code*</p></label>
+                        <input type="text" id="zip" required>
+                    </div>
+                </div>
+                <label for="country"><p id="country">Country*</p></label>
+                <input type="text" id="country_input" required><br><br>
+                <hr>
+                <div class="column">
+                    <label for="property" id="property">Please list the property or properties of interest*</label>
+                    <br><input type="text" id="interest" required>
+                </div><br>
+                <hr>
+                <div class="column">
+                    <label for="viewing">When would you like a viewing?*</label>
+                    <div class="viewing">
+                        <input type="text" id="viewing" placeholder="  DD    /    MM    /    YYYY   ">
+                        <img src="assessts/Screenshot 2025-02-20 114224.png" id="select_img">                 
+                    </div>
+                </div><br>
+                <hr>
+                <div class="column">
+                    <label for="location">Preference of location?*</label>
+                    <div class="select-section">
+                        <select>
+                            <option>Select...</option>
+                        </select>
+                    </div> 
+                    <img src="assessts/Screenshot 2025-02-21 113249.png" id="selectbar" class="img-1">
+                </div><br><br><br>
+                <hr class="hr-1">
+                <div class="column">
+                    <label for="property">What kind of property are you looking for?*</label>
+                    <div class="select-section">
+                        <select>
+                            <option>Select...</option>
+                        </select>
+                    </div>
+                    <img src="assessts/Screenshot 2025-02-21 113249.png" id="selectbar" class="img-2">
+                </div><br><br><br>
+                <hr class="hr-2">
+                <div class="column">
+                    <label for="budget">What is your budget?*</label>
+                    <div class="select-section">
+                        <select>
+                            <option>Select...</option>
+                        </select>
+                    </div>
+                    <img src="assessts/Screenshot 2025-02-21 113249.png" id="selectbar" class="img-3">
+                </div><br><br><br>
+                <hr class="hr-3">
+                <div class="column">
+                    <label for="comments">Additional comments or requests*</label>
+                    <div id="range-part">100</div>
+                    <p><span id="end-value">50000</span><input type="range"><span id="last-value">100</span></p>
+                </div>
+                <input type="submit" value="Submit now">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
