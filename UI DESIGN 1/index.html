@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health City Hospital</title>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="assessts/Screenshot_2025-02-12_174027-removebg-preview.png" alt="Hospital Logo">
+            <div class="hospital-info">
+                <p class="hospital-name">HEALTH CITY</p>
+                <p class="hospital-subname">HOSPITAL</p>
+            </div>
+        </div>
+        <div class="form-header">
+            <h1>Vaccination Consent Form</h1>
+            <h2><br><br>Patient Information</h2>
+        </div>
+        <form class="patient-form">
+            <label for="full_name" id="F-name">Full Legal Name*</label>
+            <input type="text" id="full_name" required>
+
+            <div class="row">
+                <div class="col">
+                    <label for="dob"><br>Date of Birth*</label>
+                    <div class="date-container">
+                        <input type="text" id="dob" placeholder=" DD   /   MM   /   YYYY  ">
+                        <img src="assessts/date-removebg-preview.png" id="date_logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="medical_number"><br>Medical number (if known)</label>
+                    <input type="text" id="medical_number">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="phone_number"><br>Phone Number*</label>
+                    <input type="text" id="phone_number">
+                </div>
+                <div class="col">
+                    <label for="email" id="Email"><br>Email Address*</label>
+                    <input type="email" id="email" required>
+                </div>
+            </div>
+            <label id="Address"><br>Address*</label>
+                <div class="row">
+                    <div class="col">
+                        <label for="street"><p>Street*</p></label>
+                        <input type="text" id="street" required>
+                    </div>
+                    <div class="col">
+                        <label for="city"><p>City/Suburb</p></label>
+                        <input type="text" id="city">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="state"><p>State*</p></label>
+                        <input type="text" id="state" required>
+                    </div>
+                    <div class="col">
+                        <label for="zip"><p>Zip/Post Code*</p></label>
+                        <input type="text" id="zip" required>
+                    </div>
+                </div>
+                <label for="country" id="country"><p>Country*</p></label>
+                <input type="text" id="country_input" required>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
